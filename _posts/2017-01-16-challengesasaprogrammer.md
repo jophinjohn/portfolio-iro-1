@@ -1,8 +1,8 @@
---
+---
 layout: post
 
 title: My challenges as a programmer
---
+---
 <p>Challenges as a programmer:</p>
 
 <ol>

@@ -1,8 +1,8 @@
---
+---
 layout: post
 
 title: My goals as a web dev
---
+---
 
 <p>Don’t just solve problems, figure out what’s really going on</p>
 
