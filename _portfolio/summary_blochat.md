@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blochat
-thumbnail-path: "img/logo.jpg"
+thumbnail-path: "img/chat.jpg"
 short-description: BloChat is an app that use Firebase to build an application that sends and receives messages in real time.
 ---
 Summary</p>
