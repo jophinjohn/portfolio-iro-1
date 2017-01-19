@@ -1,8 +1,8 @@
---
+---
 layout: post
 
 title: My experience with Bloc
---
+---
 <p>About Bloc</p>
 
 <p>Bloc is the world’s largest online coding bootcamp that incorporates 1 on 1 mentorship to personally prepare each student as a professional software engineer. Bloc's apprenticeship approach is tailored specifically to students' learning needs. Enroll full-time, or complete your program at a part-time pace. Not everyone can quit their career or move, so Bloc has designed a comprehensive bootcamp with this in mind. With Bloc, a dedicated mentor will provide 1 on 1 instruction to clarify concepts and pair program with each student. Bloc’s project-based curriculum is written by expert Curriculum Developers. Students work with mentors to build a portfolio of sites that will demonstrate job readiness as a professional software engineer.</p>

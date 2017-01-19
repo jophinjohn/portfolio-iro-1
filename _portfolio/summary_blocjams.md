@@ -1,9 +1,9 @@
---
+---
 layout: post
 title: BlocJams
 thumbnail-path: "img/logo.jpg"
 short-description: Bloc Jams, a digital music player like Spotify
---
+---
 
 <p>Summary</p>
 
