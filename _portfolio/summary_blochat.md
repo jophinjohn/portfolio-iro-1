@@ -4,7 +4,7 @@ title: Blochat
 thumbnail-path: "img/chat.jpg"
 short-description: BloChat is an app that use Firebase to build an application that sends and receives messages in real time.
 ---
-Summary</p>
+<p>Summary</p>
 
 <p>BlocChat is a single-page chat application I made at Bloc program. It was written in 2 months, using Angular JS as the framework. It was also my first time using Gulp as a build tool and npm for package management. I used Firebase as a real time database service.
 <a href="https://github.com/jophinjohn/blochat">View Code</a></p>
