@@ -15,7 +15,7 @@ short-description: BloChat is an app that use Firebase to build an application t
 
 <p>Grunt</p>
 
-<p>Before I started BlocChat, I wanted to evolve my method of deployment. In BlocJams I used <script> tags to inject my code into .html files. While that method worked, I knew there were better solutions out there. I was also interested in using live-reload to save time. With hundreds of plugins to choose from , this would eventually aide in my goal of automating tasks in the future. A lot of companies like Adobe and Microsoft use Grunt as their go to for real time visuals. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. For these reasons Grunt was my choice of deployment.</p>
+<p>Before I started BlocChat, I wanted to evolve my method of deployment. In BlocJams I used "script" tags to inject my code into .html files. While that method worked, I knew there were better solutions out there. I was also interested in using live-reload to save time. With hundreds of plugins to choose from , this would eventually aide in my goal of automating tasks in the future. A lot of companies like Adobe and Microsoft use Grunt as their go to for real time visuals. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. For these reasons Grunt was my choice of deployment.</p>
 
 <p>HTML, CSS and Bootstrap</p>
 
