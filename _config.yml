@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/portfolio-iro-1/" 
-url: "http://jophinjohn.github.io" # the base hostname & protocol for your site
+url: "https://jophinjohn.github.io/portfolio-iro-1/" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
