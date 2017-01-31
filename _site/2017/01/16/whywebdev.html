@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>My goals as a web dev | Jophin John Portfolio</title>
+	<meta name="description" content="Don’t just solve problems, figure out what’s really going on">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://0.0.0.0:8080/2017/01/16/whywebdev.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Jophin John Portfolio" href="http://0.0.0.0:8080/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-90598743-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Jophin John Portfolio</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			<li>
+				<a class="page-link" href="/contact/">
+					Contact
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+
+
+<li>
+	<a href="mailto:jophinjohn@hotmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.facebook.com/JophinJohn" title="Follow on Facebook">
+		<i class="fa fa-fw fa-facebook"></i>
+	</a>
+</li>
+
+
+
+
+
+<li>
+	<a href="https://github.com/jophinjohn" title="Follow on GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/jophin-john-1477574?trk=nav_responsive_tab_profile" title="Follow on LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">My goals as a web dev</h1>
+    <p class="meta">
+    January 16, 2017
+    
+    </p>
+  </header>
+  <section class="post-content"><p>Don’t just solve problems, figure out what’s really going on</p>
+
+<p>Too many people who write CSS and JavaScript tinker until they find something that works, and then they just move on. 
+I’ll frequently ask: “Why did you add float: left here?” or “is this overflow: hidden really necessary?”, and respond: “I don’t know, but if I remove it, it doesn’t work”.
+The same is true of JavaScript. I’ll see a setTimeout being used to prevent a race-condition, or someone stopping event propagation with no regard for how it will affect other event handlers on the page.</p>
+
+<p>I get that there are times when you need something that works, and you need it now. But if you never take the time to understand the root of your problem, you’ll find yourself in the same situation over and over again.
+Taking the time to figure out why your hack works may seem costly now, but I promise it’ll save you time in the future. Having a fuller understanding of the systems you’re working within will mean less guess-and-check work going forward.</p>
+
+<p>Learn to anticipate future changes to the browser landscape</p>
+
+<p>One of the main differences between front and back-end code is back-end code generally runs in an environment that’s under your control. The front end, by contrast, is completely outside of your control. The platform or device your users have could completely change at any moment, and your code needs to be able to handle that gracefully.
+I understand that in the real world feature detection doesn’t work 100% of the time, and sometimes you have to depend on buggy behavior or whitelist browsers whose feature detects erroneously return false positives (or negatives), but any time you do this it’s absolutely critical that you anticipate the almost-certain future where these bugs no longer exist.</p>
+
+<p>Read the specs</p>
+
+<p>There will always be browser bugs, but when two browsers render the same code differently, people will often assume, without checking for themselves, that the so-called “good” browser is right and the “bad” browser is wrong. But this isn’t always the case, and when you’re wrong about this assumption, whatever workaround you choose will almost certainly break in the future.
+A timely example of this is the default minimum size of flex items. According to the spec, the initial min-width and min-height value for flex items is auto (rather than 0), which means by default they shouldn’t shrink to smaller than the minimum size of their content. 
+When two or more browsers render the same code differently, you should take the time to figure out which one of them is correct and write your code with that in mind. Your workarounds will be far more future-proof as a result.
+In addition, so-called “great” front-end engineers are often the people on the forefront of change, adopting new technologies before they’re mainstream and even contributing to the development of those technologies. If you cultivate your ability to look at a spec and imagine how a technology will work before you can play with it in a browser, you’ll be part of a select group who is able to talk about and influence the development of that spec.</p>
+
+<p>Read other people’s code</p>
+
+<p>Reading other people’s code, for fun, is probably not your idea of a fun Saturday night, but it’s without a doubt one of the best ways to become a better developer.
+Solving problems on your own is a great way to learn, but if that’s all you ever do, you’ll plateau pretty quickly. Reading other people’s code opens your mind to new ways of doing things. And the ability to read and understand code that you didn’t write is essential to working on a team or contributing to open source projects.
+A great way to achieve this is via Codewars. Once you solve a kata, reading up on other solutions will give a wide perspective of how one problem can be solved many different ways and which solution is the best for particular environment.</p>
+
+</section>
+</article>
+
+<!-- Disqus -->
+
+
+    </div>
+    <script src="/js/main.js"></script>
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://github.com/jophinjohn/portfolio-iro-1">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>

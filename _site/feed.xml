@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jophin John Portfolio</title>
+    <atom:link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://0.0.0.0:8080/</link>
+    <description>A website with blog posts and pages</description>
+    <pubDate>Tue, 31 Jan 2017 10:16:50 +0000</pubDate>
+    
+      <item>
+        <title>My goals as a web dev</title>
+        <link>http://0.0.0.0:8080/2017/01/16/whywebdev.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:8080/2017/01/16/whywebdev.html</guid>
+        <description>&lt;p&gt;Don’t just solve problems, figure out what’s really going on&lt;/p&gt;
+
+&lt;p&gt;Too many people who write CSS and JavaScript tinker until they find something that works, and then they just move on. 
+I’ll frequently ask: “Why did you add float: left here?” or “is this overflow: hidden really necessary?”, and respond: “I don’t know, but if I remove it, it doesn’t work”.
+The same is true of JavaScript. I’ll see a setTimeout being used to prevent a race-condition, or someone stopping event propagation with no regard for how it will affect other event handlers on the page.&lt;/p&gt;
+
+&lt;p&gt;I get that there are times when you need something that works, and you need it now. But if you never take the time to understand the root of your problem, you’ll find yourself in the same situation over and over again.
+Taking the time to figure out why your hack works may seem costly now, but I promise it’ll save you time in the future. Having a fuller understanding of the systems you’re working within will mean less guess-and-check work going forward.&lt;/p&gt;
+
+&lt;p&gt;Learn to anticipate future changes to the browser landscape&lt;/p&gt;
+
+&lt;p&gt;One of the main differences between front and back-end code is back-end code generally runs in an environment that’s under your control. The front end, by contrast, is completely outside of your control. The platform or device your users have could completely change at any moment, and your code needs to be able to handle that gracefully.
+I understand that in the real world feature detection doesn’t work 100% of the time, and sometimes you have to depend on buggy behavior or whitelist browsers whose feature detects erroneously return false positives (or negatives), but any time you do this it’s absolutely critical that you anticipate the almost-certain future where these bugs no longer exist.&lt;/p&gt;
+
+&lt;p&gt;Read the specs&lt;/p&gt;
+
+&lt;p&gt;There will always be browser bugs, but when two browsers render the same code differently, people will often assume, without checking for themselves, that the so-called “good” browser is right and the “bad” browser is wrong. But this isn’t always the case, and when you’re wrong about this assumption, whatever workaround you choose will almost certainly break in the future.
+A timely example of this is the default minimum size of flex items. According to the spec, the initial min-width and min-height value for flex items is auto (rather than 0), which means by default they shouldn’t shrink to smaller than the minimum size of their content. 
+When two or more browsers render the same code differently, you should take the time to figure out which one of them is correct and write your code with that in mind. Your workarounds will be far more future-proof as a result.
+In addition, so-called “great” front-end engineers are often the people on the forefront of change, adopting new technologies before they’re mainstream and even contributing to the development of those technologies. If you cultivate your ability to look at a spec and imagine how a technology will work before you can play with it in a browser, you’ll be part of a select group who is able to talk about and influence the development of that spec.&lt;/p&gt;
+
+&lt;p&gt;Read other people’s code&lt;/p&gt;
+
+&lt;p&gt;Reading other people’s code, for fun, is probably not your idea of a fun Saturday night, but it’s without a doubt one of the best ways to become a better developer.
+Solving problems on your own is a great way to learn, but if that’s all you ever do, you’ll plateau pretty quickly. Reading other people’s code opens your mind to new ways of doing things. And the ability to read and understand code that you didn’t write is essential to working on a team or contributing to open source projects.
+A great way to achieve this is via Codewars. Once you solve a kata, reading up on other solutions will give a wide perspective of how one problem can be solved many different ways and which solution is the best for particular environment.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>My experience with Bloc</title>
+        <link>http://0.0.0.0:8080/2017/01/16/experiencewithbloc.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:8080/2017/01/16/experiencewithbloc.html</guid>
+        <description>&lt;p&gt;About Bloc&lt;/p&gt;
+
+&lt;p&gt;Bloc is the world’s largest online coding bootcamp that incorporates 1 on 1 mentorship to personally prepare each student as a professional software engineer. Bloc's apprenticeship approach is tailored specifically to students' learning needs. Enroll full-time, or complete your program at a part-time pace. Not everyone can quit their career or move, so Bloc has designed a comprehensive bootcamp with this in mind. With Bloc, a dedicated mentor will provide 1 on 1 instruction to clarify concepts and pair program with each student. Bloc’s project-based curriculum is written by expert Curriculum Developers. Students work with mentors to build a portfolio of sites that will demonstrate job readiness as a professional software engineer.&lt;/p&gt;
+
+&lt;p&gt;Career readiness is important - Bloc's flagship Track programs include job preparation material and access to a Placement Network when you’re ready. Mentors will help students put together a portfolio and prepare technical interview questions. When ready, students work with the Career Support team to navigate the job search process with an individualized game plan and exposure to Bloc's Employer Network.&lt;/p&gt;
+
+&lt;p&gt;No prior development experience is required to enroll in Bloc, but a strong desire to learn and take on challenges will be important in each student's success!&lt;/p&gt;
+
+&lt;p&gt;My experience with Bloc&lt;/p&gt;
+
+&lt;p&gt;I'm a current Bloc student as well, and below is the feedback I have about learning to code with them and learning to code in general (in summary, it is and has been going very well).&lt;/p&gt;
+
+&lt;p&gt;The best part of learning to code with Bloc has been the dynamic between the challenging projects and the mentor meetings. The projects by themselves taught me a ton, and then the meetings with my mentor reinforce what I’ve learned from the projects, resolve any questions or misconceptions I have, and leave me feeling motivated to learn more. As for learning to code in general, the best part is the tremendous satisfaction I get after solving a difficult problem. That satisfaction, though brief, is highly addictive and makes all the effort worthwhile - and it’s great preparation for even bigger challenges. &lt;/p&gt;
+
+&lt;p&gt;The worst part of learning to code, both with Bloc and in general, is the occasional but necessary period of intense struggle. It can be discouraging, but I get through it by remembering this: every rewarding pursuit has rough patches, so they’re bound to show up; and they usually mean that some serious growth is about to happen!&lt;/p&gt;
+
+&lt;p&gt;A mentor session usually starts with me giving a progress summary, which also includes any questions I have. Then Matt, my mentor, answers my questions, pair-programs with me when necessary, and lays out the next steps for me to complete for our next session. We also talk about best practices, new developments, and ongoing debates in the web-development world. Of course, each session is also motivating and fun; having a pro to work with goes a long way.&lt;/p&gt;
+
+&lt;p&gt;Bloc is tough, but it's worth it: the mentors and the projects will push you so that you get the most out of the program.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      </item>
+    
+      <item>
+        <title>My challenges as a programmer</title>
+        <link>http://0.0.0.0:8080/2017/01/16/challengesasaprogrammer.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:8080/2017/01/16/challengesasaprogrammer.html</guid>
+        <description>&lt;p&gt;Challenges as a programmer:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Those annoying &quot;hey I can't open. It crashes&quot; kind of bug reports. Well how are programmers suppose to solve/debug when no info is given along with bug reports!!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The documentation of applications are seldom read by others. The users tend to ignore them and keep PMing the coder for easy info. You spend hours documenting the application and no one cares  about it!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Programmer is frustrated the more often than not when he/she gets an output for the first time he/she compiles a group of codes. Might even think of editing the code to get at-least one error! &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The biggest challenge comes in optimizing the code, to reduce the loading time. Undoubtedly, if you're not well - acquainted with any language, then writing the program in itself would be the biggest challenge!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;He/she also faces a lot of problems and challenges while deploying the changes made (code enhancements) according to the needs of end-user. Most of the times, programmers get enhancements on a daily basis. Faced it while deploying my Ruby code from testing stage to the production  stage.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I often found it hard to ask a question. The issue was not with Bloc The problem being with me as a programmer should solve all problems myself approach. This would involve endless hours of finding simplest solution to a problem. Problems which could be solved in a few minutes by an expert.  Raising a hand to ask questions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Talking about questions. Programmers tend to ask questions very vaguely . And context of a problem is important too. Understanding the context brings about clarity and approach.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Communication: Finding out what is needed via communication and finding out the best possible approach to solve an issue.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Keeping up with technology. New versions of software. Compatibility issues and the learning curve. Time is a big factor and money.  For example : I just finished learning Angular JS , and I have found out that Angular 2 is just released which is albeit a bit more complex but with better framework it is preloaded with more goodies which can save time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An application will eventually break; Bad deploy, unintended behaviour, unintended input or unintended external load. Plan for that. This includes making sure you log uncaught exceptions, test a deploy works after it's out (and potentially roll back), should run tests continously.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Keep your version control system's branches short-lived. My experience is that risk of failures increases exponentially the longer a branch lives. Avoid working on a branch for more than two weeks. For large features, break them into multiple refactoring branches to make the feature easier to implement in a few commits.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Writing comments will be a challenge. Finding an aha moment and writing the corresponding comment in real time will be very crucial. Helps for a better read by others and yourself. Also , as I figured out the comments lead to an internal version control system for me and allowed me to review my code better for finding potential errors.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      </item>
+    
+  </channel>
+</rss>

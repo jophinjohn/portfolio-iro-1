@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Blochat | Jophin John Portfolio</title>
+	<meta name="description" content="Summary">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://0.0.0.0:8080/portfolio/blochat.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Jophin John Portfolio" href="http://0.0.0.0:8080/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-90598743-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Jophin John Portfolio</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			<li>
+				<a class="page-link" href="/contact/">
+					Contact
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+
+
+<li>
+	<a href="mailto:jophinjohn@hotmail.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.facebook.com/JophinJohn" title="Follow on Facebook">
+		<i class="fa fa-fw fa-facebook"></i>
+	</a>
+</li>
+
+
+
+
+
+<li>
+	<a href="https://github.com/jophinjohn" title="Follow on GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/jophin-john-1477574?trk=nav_responsive_tab_profile" title="Follow on LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Blochat</h1>
+    <p class="meta">
+    January 31, 2017
+    
+    </p>
+  </header>
+  <section class="post-content"><p>Summary</p>
+
+<p>BlocChat is a single-page chat application I made at Bloc program. It was written in 2 months, using Angular JS as the framework. It was also my first time using Gulp as a build tool and npm for package management. I used Firebase as a real time database service.
+<a href="https://github.com/jophinjohn/blochat">View Code</a></p>
+
+<p>AngularJS</p>
+
+<p>After I finished BlocJams, I was given a choice of frameworks to learn for the projects phase at Bloc. The cleanliness of the syntax, particularly of AngularJS, appealed to me. It was also "new", relatively, and Angular2 was on the horizon, so I felt compelled to future-proof my education.</p>
+
+<p>Grunt</p>
+
+<p>Before I started BlocChat, I wanted to evolve my method of deployment. In BlocJams I used "script" tags to inject my code into .html files. While that method worked, I knew there were better solutions out there. I was also interested in using live-reload to save time. With hundreds of plugins to choose from , this would eventually aide in my goal of automating tasks in the future. A lot of companies like Adobe and Microsoft use Grunt as their go to for real time visuals. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. For these reasons Grunt was my choice of deployment.</p>
+
+<p>HTML, CSS and Bootstrap</p>
+
+<p>I began by blocking out BlocChat using only HTML and CSS. Once I had the look and feel down, I converted the HTML into Angular JS components. Bootstrap is a CSS framework used to build pages faster. Bootstrap provides a lot of useful CSS out of the box. This is why I had chosen bootstrap for faster development and fast loading of pages and built in CSS elements like Jumbotron for highlighting HTML in a box.
+    I had already split BloChat into two main components,HomeCtrl  and Modulectrl; while creating the prototype, so they naturally took on the role of controller-views. Initially I had difficulty using modals through the module ctrl but as time went by I had figured to use modals without using a controller in the template.html with ease. Eventually I plan on revisiting the Blochat app and add in a UserCtrl file so as to give the ability to sign in  and out rather than add users on the fly. 
+On the model side, I started with two stores, Rooms and Messages, one kept track of rooms, the other kept track of messages. As the application grew, I also added a cookie to remember information about the user. 
+I would say that I understood how closures worked by the time I started BlocChat, but it was using them in my application that made me see their power. Passing functions to components via props was a liberating experience, because I could give responsibilities to UI components without ever making them aware of a world outside their own module. The controller-views were smart, the leaf components were dumb, but there were no sacrifices that had to be made in terms of complexity or functionality on either the view or model side.
+The workflow can be dizzying, and it was made worse when multiple components might be listening to a single store. In the case of BloChat, I'm glad I was consistent in naming my files; I feel it went a long way to help me keep track of my modules' relationships.</p>
+
+<p>Firebase</p>
+
+<p>Unlike many chat applications, BlocChat rooms are persistent; all messages that were ever typed in a room are stored in the cloud. Bloc suggested using Firebase to persist data, and in this case I felt no reason to stray from the script. I have only a little experience with SQL, so using a full-featured cloud service was more time-efficient.
+The first time I tried to communicate with Firebase, I ran into a problem where the Dispatcher would attempt to resolve two actions simultaneously, which is apparently forbidden. It was here that I really learned the difference between "synchronous" and "asynchronous". When I clicked a button, I naively sent a write action to the dispatcher (to add a room locally) and a write request to the server (to add a room on the server). Since I was listening to the server for changes to the rooms, and using actions to send these changes to the stores, the two resultant actions collided in the dispatcher. The lag on his end acted like an unintended setTimeout().
+Once I routed all Firebase-related actions through ChatAPI, my server-communication workhorse, the problem was solved.</p>
+
+<p>Modal</p>
+
+<p>Being new to web development, I had no idea what modals were called but always thought they were really neat. I implemented my own for BloChat for room creation and changing the username. While it worked, the experience wasn't as smooth as I'd have liked, and it was extremely limited. Nesting animations was a big headache and buggy to boot. Eventually I settled for using modals as a separate div in the template.html and it was very easy to work with rather than use it through a controller.</p>
+
+<p>Conclusion</p>
+
+<p>Compared to BlocJams, BloChat felt more "real". I wrote the app from scratch, and integrated Firebase independently. At the same time I was using a proper framework with Angular JS, and professional tools like gulp and npm. The result was a clean, well organized code base for a working chat client. I am proud of it, even though I didn't have time to implement more features I had in mind. Some day I might revisit BlocChat to extend it further.</p>
+
+</section>
+</article>
+
+<!-- Disqus -->
+
+
+    </div>
+    <script src="/js/main.js"></script>
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://github.com/jophinjohn/portfolio-iro-1">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>
